@@ -7,3 +7,6 @@
 * arrow keys to move
 
 * "P" to pause
+
+# Game screens
+![Image](img/Start.jpg) ![Image](img/Game.jpg)
