@@ -21,7 +21,6 @@ class Game():
         pg.display.set_caption("SNAKE")
         self.font_name = pg.font.match_font("arial")
         self.clock = pg.time.Clock()
-        self.score = 0
         self.dir = path.dirname(__file__)
 
         # see if highscore file exists, if not create it
@@ -45,6 +44,7 @@ class Game():
 
     def new(self):
         self.paused = False
+        self.score = 0
         self.food = False
         self.food_timer = pg.time.get_ticks()
         self.all_sprites = pg.sprite.LayeredUpdates()
